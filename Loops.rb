@@ -31,7 +31,7 @@ begin
 end until $g > $f
 
 #For Loop
-for i in 0..15
+(0..15).each do |i|
   puts "I am #{i}"
 end
 
@@ -41,8 +41,8 @@ end
 end
 
 #Break statement
-for i in 0..6
-  if i > 2 then
+(0..6).each do |i|
+  if i > 2
     puts "I am break #{i}"
     break
   else
