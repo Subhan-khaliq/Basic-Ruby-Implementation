@@ -70,6 +70,7 @@ i.car_no()
 H = Hash["a" => 10, "b" =>20, "c" =>30]
 puts "#{H['a']}"
 
+
 H.each do |key, value|
   puts "#{key}"," is ","#{value}"
 end

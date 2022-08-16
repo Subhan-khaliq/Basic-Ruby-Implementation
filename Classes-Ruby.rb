@@ -10,6 +10,7 @@ class Animal
   end
 end
 
+#Inheritance in Classes
 class Cat < Animal
   @@no_of_cats = 4
   def show()
